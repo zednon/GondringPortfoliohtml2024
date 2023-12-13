@@ -60,6 +60,25 @@ header {
   
   
   }
+
+  .wrwLink {
+    text-decoration: none;
+    color: #F02B7D;
+    border-bottom: #F02B7D 2px solid;
+    font-weight: 600;
+  }
+
+  .wrwLink:hover {
+    text-decoration: none;
+    color: #8a244e;
+    border-bottom: #8a244e 2px solid;
+  }
+
+  .wrwLink:focus {
+    text-decoration: none;
+    color: #F02B7D;
+    border: #4b6360 2px dashed;
+  }
   
   .liNavTop:hover {
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
