@@ -381,8 +381,42 @@ font-weight: 700;
     padding: 0 0 0 1rem;
   
   }
+.email {
+  font-size: 20px;
+  padding-bottom: 3px;
+  color : #6F2A87;
+  text-decoration: none;
+  border-bottom: #6F2A87 2px solid;
 
+}
 
+.email:hover { 
+  color : #F02B7D;
+  border-bottom: #F02B7D 2px solid;
+}
+
+.email:focus { 
+  border: #000000 2px dotted;
+}
+
+  .skillItems {
+    list-style-type: none;
+  
+    padding: 0 0 0 1rem;
+  }
+  
+  .skillItems li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FB9E35; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+  }
+
+  .tab {
+    padding: 0 0 0 3rem; 
+  }
   
   .listItems li::before {
     content: "\2743";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
