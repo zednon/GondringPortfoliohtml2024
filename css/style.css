@@ -186,6 +186,14 @@ font-weight: 700;
    
   
   }
+  .oneLongtwoBlocks {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+
   .twoBlocksOneLong {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -265,6 +273,16 @@ font-weight: 700;
     width: 100%;
   }
   
+  .blogSubtittle {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+   width: 100%;
+   
+   
+  background: #FB9E35;
+  
+  }
   
   
   .projectDate{
@@ -350,7 +368,13 @@ font-weight: 700;
     
   }
   
-  
+  .ojBox {
+    border-top: #010B0A 5px solid;
+    background-color: #FB9E35;
+    width: 100%;
+    height: 150px;
+  bottom: 0;
+  }
   
   .yellowBox {
     border-top: #010B0A 5px solid;
@@ -522,6 +546,9 @@ font-weight: 700;
   
   }
   
+  .projectButtonoj:focus  {
+    border: #F2DA1B 2px dotted;
+  }
 
   
   .projectButtonoj:hover {
