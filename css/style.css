@@ -319,6 +319,32 @@ font-weight: 700;
     border-bottom: #FFFDFE 2px dotted
   }
 
+  .projectButtonPurple {
+    margin: 45px 5%;
+    border: #010B0A 3px solid;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: #6F2A87;
+    color: #FFFDFE;
+    height: 48px;
+    width: 90%;
+    line-height: 24px;
+    touch-action: manipulation;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+  
+.projectButtonPurple:focus  { 
+  border: #F2DA1B 2px dotted;
+}
+
+.projectButtonPurple:hover { 
+  background-color: #FFFDFE;
+  outline: 0;
+  color: #6F2A87;
+}
+
+
   
   .projectButton {
     margin: 45px 5%;
