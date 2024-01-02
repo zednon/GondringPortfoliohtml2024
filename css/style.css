@@ -134,7 +134,12 @@ font-weight: 700;
     color: #FFFDFE;
     
   }
-  #about {margin: 50px 20%;
+  .threeBlocksmiddleBig {
+  display: grid; 
+  grid-template-columns: 2fr 3fr 2fr; 
+   margin: 0 5%;
+   grid-gap: 20px;
+   padding: 5rem 0;
   }
   
   .heroImg {
@@ -179,13 +184,17 @@ font-weight: 700;
     margin-top: 10rem;
     }
     .mainFont {
-    font-family: "omnes-pro", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+      font-family: "bungee", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: #010B0A;
     font-size: 4.5rem;
+    
    
   
   }
+
+
   .oneLongtwoBlocks {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -322,6 +331,7 @@ font-weight: 700;
   .projectButtonPurple {
     margin: 45px 5%;
     border: #010B0A 3px solid;
+    font-weight: 700;
     border-radius: 8px;
     font-size: 14px;
     padding: 0 10px;
@@ -348,6 +358,7 @@ font-weight: 700;
   
   .projectButton {
     margin: 45px 5%;
+    font-weight: 700;
     border: #010B0A 3px solid;
     border-radius: 8px;
     font-size: 14px;
@@ -484,7 +495,7 @@ font-weight: 700;
   
   
   .footerBox {
-    background-color: #F02B7D;
+    background-color: #e11c6e;
     color:#FFFDFE;
   width: 95%;
   height: auto;
@@ -540,6 +551,7 @@ font-weight: 700;
   }
   
   .projectButtonoj {
+    font-weight: 700;
     margin: 45px 5%;
     border: #010B0A 3px solid;
     border-radius: 8px;
