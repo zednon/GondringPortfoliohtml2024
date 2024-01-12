@@ -175,12 +175,11 @@ font-weight: 700;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
   }
-  
+
   .tealLine {
     height: auto;
     width: 100%;
     background-color: #0AD6BF;
-    border: #010B0A 5px solid;
     margin-top: 10rem;
     }
     .mainFont {
@@ -209,7 +208,67 @@ font-weight: 700;
     grid-gap: 20px;
     padding: 20px;
   }
-  
+
+  .box {
+    border: #010B0A 5px solid;
+    border-radius: 45%;
+    background-color: #6F2A87;
+    width: 50%;
+    height: 150px; margin-top: 10rem;
+    
+  }
+
+.boxLink {
+  border: #010B0A 5px solid;
+  border-radius: 45%;
+  background-color: #F02B7D;
+  width: 75%;
+  height: auto; 
+  margin-top: 10rem; 
+  text-decoration: none;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.boxLink:hover {
+  border: #010B0A 5px solid;
+  border-radius: 45%;
+  background-color: #6F2A87;
+  width: 75%;
+  height: auto; 
+  margin-top: 10rem; 
+box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829) 
+0px 10px 10px;;
+
+}
+
+.box:focus a {
+  border: #010B0A 5px dotted;
+}
+
+
+.textArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#FFFDFE;
+  text-align: center;
+  margin: 1% auto;
+  font-family: "bungee", sans-serif;
+  font-size: 3.5rem;
+  text-decoration: none;
+}
+
+  .inthemiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFDFE;
+    text-align: center;
+    margin: 1% auto;
+    font-family: "bungee", sans-serif;
+    font-size: 3.5rem;
+  }
+
   .fontLevelTwo {
    
     font-weight: 700;
@@ -665,7 +724,7 @@ font-weight: 700;
     justify-content: center;
     flex-wrap: nowrap;
     grid-gap: 20px;
-    padding: 100px 20px;
+    padding: 10px 20px;
   }
   
   /* Small devices (landscape phones, less than 768px)*/
