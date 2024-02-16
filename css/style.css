@@ -193,6 +193,18 @@ font-weight: 700;
   
   }
 
+  .mainFontPurple {
+    font-family: "bungee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #6F2A87;
+  font-size: 4.0rem;
+  border-bottom: #010B0A 5px dashed;
+  
+ 
+
+}
+
 
   .oneLongtwoBlocks {
     display: grid;
