@@ -1,9 +1,93 @@
 
+.topNavMain {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  width: 100%;
+  background-color: white;
+
+  
+}
+
+
+
+.bottomNavMain {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+  width: 100%;
+  background-color: #F02B7D;
+  border: #010B0A 5px solid;
+  border-radius: 50px
+}
+.ulTopNavMain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.liTopNavMainLink:hover {
+ border-radius: 50px;
+ border: #000000 4px solid;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 
+}
+
+.liTopNavMainLink:hover {
+  background-color: #FB9E35;
+  color: #010B0A;
+
+}
+
+.dropdownUXCaseStudies {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 50px;
+  border: #000000 4px solid;
+  background-color: #6F2A87;
+  color: #FFFDFE;
+
+
+}
+
+
+.liTopNavMain {
+  font-size: 28px;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-right: 2rem;
+  display: inline-block;
+  justify-content: center;
+}
+
+.liTopNavMain .liTopNavMainLink {
+  text-decoration: none;
+  padding: 10px
+
+
+}
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #FFFDFE;
+}
+
+.active {
+  border: #010B0A 5px solid;
+  border-radius: 50px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  background-color: #720b36;
+  color: #FFFDFE;
+  }
 
 header {
-  
-    padding: 20px 0;
-    color:#FFFDFE;
+
+    overflow: hidden;
   }
   
   .bodyFont {
@@ -23,7 +107,7 @@ header {
 }
 
 .footerTexted {
-  font-family: "winco", sans-serif;
+ 
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -68,12 +152,12 @@ font-weight: 700;
 
   .liNavTop {
     display: inline-block;
-    padding: 10px 30px;
-    margin: 10px 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
   background-color: #F02B7D;
-  border: #010B0A 2px solid; 
   color: #010B0A; 
   font-size: 25px;
+  justify-self: center;
   }
   
   .dancingWitch {
@@ -125,11 +209,15 @@ font-weight: 700;
   }
   
   .liNavTop:hover {
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+     rgba(240, 46, 170, 0.3) 10px 10px,
+      rgba(240, 46, 170, 0.2) 15px 15px, 
+      rgba(240, 46, 170, 0.1) 20px 20px, 
+      rgba(240, 46, 170, 0.05) 25px 25px;
    
   }
   
-  .NaBarLink {
+  .naBarLink {
     text-decoration: none;
     color: #FFFDFE;
     
@@ -147,7 +235,7 @@ font-weight: 700;
     height: auto;
   }
   
-  .NaBarLink:hover {
+  .naBarLink:hover {
     border-bottom:#FFFDFE 2px solid;
    
   }
@@ -343,6 +431,11 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     padding: 20px;
   }
   
+.marginTop {
+  margin-top: 50px;
+}
+
+
   
   .projectBox {
     box-shadow: 10px 10px 0px 1px rgba(39,7,51,1);
@@ -445,7 +538,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
   
   .projectDescription {
-    height: 200px;
+    
   }
   
   /* CSS */
@@ -488,7 +581,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     border-top: #010B0A 5px solid;
     background-color: #F2DA1B;
     width: 100%;
-    height: 150px;
+    height: auto;
   bottom: 0;
   }
   
@@ -507,12 +600,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     height: 500px;
   }
   
-  .listItems {
-    list-style-type: none;
-  
-    padding: 0 0 0 1rem;
-  
-  }
+
 .email {
   font-size: 20px;
   padding-bottom: 3px;
@@ -536,16 +624,13 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
     padding: 0 0 0 1rem;
   }
-  
-  .skillItems li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #FB9E35; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em;
-  }
 
+  .listItems {
+    list-style-type: none;
+  
+    padding: 0 0 0 1rem;
+  
+  }
   .tab {
     padding: 0 0 0 3rem; 
   }
@@ -554,6 +639,25 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     content: "\2743";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #FB9E35; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  .listItem {
+    list-style-type: none;
+  
+    padding: 0 0 0 1rem;
+  
+  }
+  .tab {
+    padding: 0 0 0 3rem; 
+  }
+  
+  .listItem li::before {
+    content: "\2748";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #6F2A87; /* Change the color */
+    font-weight: 900; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
@@ -594,6 +698,8 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     padding: 10px;
   }
   
+
+
 
   .navBottom {
     
