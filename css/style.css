@@ -524,7 +524,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     margin: 45px 5%;
     font-weight: 700;
     border: #010B0A 3px solid;
-    border-radius: 8px;
+    border-radius: 25px;
     font-size: 14px;
     padding: 0 10px;
     background-color: #F2DA1B;
@@ -731,7 +731,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     font-weight: 700;
     margin: 45px 5%;
     border: #010B0A 3px solid;
-    border-radius: 8px;
+    border-radius: 25px;
     font-size: 14px;
     padding: 0 10px;
     background-color: #FB9E35;
