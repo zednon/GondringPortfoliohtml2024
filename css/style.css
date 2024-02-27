@@ -457,6 +457,10 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
   }
   
+  .linedash {
+    border-bottom: #010B0A 1px dashed;
+    width: 100%;
+  }
   
   .projectDate{
     float: right;
