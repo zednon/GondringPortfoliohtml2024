@@ -80,6 +80,8 @@
 .active {
   border: #010B0A 5px solid;
   border-radius: 50px;
+  
+    
   box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
   background-color: #720b36;
   color: #FFFDFE;
@@ -811,13 +813,20 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .oneLongtwoBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+   }
    .footerBox {
     background-color: #F02B7D;
     color:#FFFDFE;
     width: 100%; 
     margin: 0;
   }
-  
+ 
+
   .fourBlocks {
     display: grid;
     grid-template-columns: 1fr;
