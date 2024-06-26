@@ -241,15 +241,8 @@ font-weight: 700;
     border-bottom:#FFFDFE 2px solid;
    
   }
-  
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
+
   /* About CSS */
   
   .gridTwoBlocks {
@@ -901,20 +894,9 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
   }
   
-  .twoBlocksOneLong {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-  }
 
-  .threeBlocksmiddleBig {
-    display: grid; 
-    grid-template-columns: 1fr; 
-     margin: 0 5%;
-     grid-gap: 20px;
-     padding: 5rem 0;
-    }
+
+  
     .oneLongtwoBlocks {
       display: grid;
       grid-template-columns: 1fr;
@@ -996,3 +978,12 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     }
 
   }
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
