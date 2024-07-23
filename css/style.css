@@ -409,6 +409,11 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     padding: 20px;
   
   }
+
+.threeBlocksmiddleBigbutbigger {
+display: grid;
+grid-template-columns: 1fr 5fr 1fr;
+}
   
   .pojectHeadline {
     float: right;
@@ -819,6 +824,93 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
     margin: 0;
   }
  
+.twoBlocksOneLong {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+  .fourBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .threeBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .fourBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .navbarTop {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .mainBoarder {
+    border: #010B0A 10px solid;
+    width: 100%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 
+    0px 10px 20px, 
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .mainInfo {
+    text-align: center;
+  
+  }
+  
+  .oneLongtwoBlocks {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .footerBox {
+    background-color: #F02B7D;
+    color:#FFFDFE;
+  
+  border-radius: 50px;
+  
+  }
+  .fourBlocks {
+    display: grid;
+    grid-template-columns: 1fr
+    1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .threeBlocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  
+  }
+  
+  .threeBlocksmiddleBigbutbigger {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+  }
+  
+  .pojectHeadline {
+    float: right;
+    font-size: 18px;
+    font-family: "win
+}
+
 
   .fourBlocks {
     display: grid;
@@ -854,7 +946,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   }
   
   /* Small devices (landscape phones, less than 768px)*/
-  @media only screen and (min-width: 480px) and (max-width: 767px) {  
+  @media only screen and (min-width: 480px) and (max-width: 650px) {  
   .gridTwoBlocks { 
     display: grid;
     grid-template-columns: 1fr;
@@ -899,7 +991,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
     .oneLongtwoBlocks {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr 1fr;
       grid-gap: 20px;
       padding: 20px;
     }
@@ -918,7 +1010,7 @@ box-shadow: rgba(19, 223, 223, 0.774) 0px 20px 40px, rgba(69, 164, 202, 0.829)
   
   
   /* Large devices (desktops, less than 1200px)*/
-  @media only screen and (min-width: 768px)  { 
+  @media only screen and (min-width: 650px)  { 
     .navbarTop {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
