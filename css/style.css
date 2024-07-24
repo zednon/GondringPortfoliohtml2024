@@ -1020,8 +1020,6 @@ grid-template-columns: 1fr 5fr 1fr;
       color:#FFFDFE;
   
     border-radius: 50px;
-  
-    
     }
     .fourBlocks {
       display: grid;
@@ -1030,9 +1028,6 @@ grid-template-columns: 1fr 5fr 1fr;
       grid-gap: 20px;
       padding: 20px;
     }
-    
-    
-  
   }
 
 

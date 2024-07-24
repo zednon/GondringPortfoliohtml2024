@@ -17,33 +17,37 @@
 <body>
     <header>
         <nav aria-label="Primary navigation" class="topNavMain">
-            <ul class="ulTopNavMain">
-            <li class="liTopNavMain black">
-            <a href="../index.html"class="liTopNavMainLink black">About</a></li>
-            <li class="liTopNavMain black">
-            <a href="../mainpages/blog.html" class="liTopNavMainLink black ">
-            Blog</a></li>
-            <li class="liTopNavMain black" >
-            <a href="../mainpages/resume.html" class="liTopNavMainLink black">
-            Resume</a></li>
-            </ul>
-            </nav>
-            <nav class="bottomNavMain" id="navBar">
-            <ul class="ulTopNavMain">
-            <li class="liTopNavMain">
-            <a href="../projectpages/uxcasestudies.html"class="liTopNavMainLink active backgroundBottom white">
-            Case Studies </a></li>
-            <li class="liTopNavMain">
-            <a href="../projectpages/codingprojects.html" class="liTopNavMainLink white">
-            Coding Projects</a></li>
-            <li class="liTopNavMain">
-            <a href="../projectpages/emailprojects.html" class="liTopNavMainLink white ">
-            Email Projects</a></li>
-
-            </ul>
-            </nav>
-
-       </header>
+          <ul class="ulTopNavMain">
+          <li class="liTopNavMain black">
+          <a href="../index.html"class="liTopNavMainLink black">About</a></li>
+          <li class="liTopNavMain black">
+          <a href="../mainpages/blog.html" class="liTopNavMainLink black">
+              Blog & Designs</a></li>
+          <li class="liTopNavMain black" >
+          <a href="../mainpages/resume.html" class="liTopNavMainLink black">
+          Resume</a></li>
+          </ul>
+          </nav>
+          <nav class="bottomNavMain">
+          <ul class="ulTopNavMain">
+          <li class="liTopNavMain" onclick="caseStudy()">
+          <a href="../mainpages/uxcasestudies.html"class="liTopNavMainLink 
+          backgroundBottom white active">
+          Case Studies </a></li>
+          <li class="liTopNavMain">
+          <a href="../mainpages/codingprojects.html" 
+          class="liTopNavMainLink white  ">
+          Coding Projects</a></li>
+          <li class="liTopNavMain">
+          <a href="../mainpages/emailprojects.html" 
+          class="liTopNavMainLink white ">
+          Email Projects</a></li>
+          <li class="liTopNavMain">
+              <a href="./mainpages/videoprojects.html" class="liTopNavMainLink white">
+              Video Editing</a></li>
+          </ul>
+          </nav>
+         </header>
        <div class="tealLine">
         <h1 class="mainFont mainInfo project">
             The Collective
@@ -61,11 +65,12 @@
             </strong>In the game Hades Star there is a corporation called The Collective, its a very old corporation I have been a member for 4 years. In Nov. there was a large update to the game. Player base dropped drastically. I worked with my team of leaders to develop new ways to keep people engaged with the corp and the game. The Collective over the years has had over hunderd active memebers. At this time the numbers have droped to about 40 players in The Collective however our server hosts </p>
             
             </div> 
-            <div class="projectBox">
+            <div class="projectBox CSpadding">
+                <img src="../media/Colletive/Untitled (8).png" alt="The Colletive"class="projectImg" width="100%">
             </div></div>
                 <div class="gridTopics">
                     <div></div>
-                        <h2 class="mainFontPurple">About the Game</h2>
+                <h2 class="mainFontPurple">About the Game</h2>
                     <div></div>
                     
 </div>
@@ -73,13 +78,19 @@
 <p>
                 A bit of a overview of the game, Hades Star came out of beta in August 21, 2017 and was released globally.  Players develop their own star systems called Yellow Stars.  Players spend years developing these systems. Exploring space developing the planets. Players join corporations with other players who help them develop their systems.  </p>
                 <p>
-                There is another star type called a Red Star, it's a Player vs Environment (Non-player charters). These matches take about 10 mins and need to be run once a day. It's how players develop their tech as the game progresses there are different levels to the game. The end game is Dark Red Star 12, however no one has this unlocked at this time, the highest people are in the game a present is level Dark Red Star 11.   </p>
+                There is another star type called a Red Star, it's a Player vs Environment (Non-player charters). These matches take about 10 mins and need to be run once a day. It's how players develop their tech as the game progresses there are different levels to the game. The end game is Dark Red Star 12, however no one has this unlocked at this time, the highest people are in the game a present is level Dark Red Star 11. 
+            </p>
                 <p>
                 An other star type is a Blue Star. This is a Player vs Player match that takes roughly 3 mins in Battle Royal Style Game. Players are matched up based on tech levels.  </p>
                 <p>
-                The final star type is called a White Star. It's a Player vs Player game that includes Asynchronous co-operation, slow down time, and spawns five days. The matchs our 10 players from one team and 10 from another. They’re in-depth straghy players/teams have developed over the years to create changes over the years.  </p>
+                The final star type is called a White Star. It's a Player vs Player game that includes Asynchronous co-operation, slow down time, and spawns five days. The matchs our 10 players from one team and 10 from another. They’re in-depth straghy players/teams have developed over the years to create changes over the years. </p>
                 <p>
                 This game is played on mobile, desktop, and x-box. Most users play on their desktop, while others play only on there phones. Discord is often used for commutation outside of the game. Where friendships are developed with people inside the corps And at least one marrage has taken place from meet within the game. </p>
+                <p>Please visit my vidoe page to view the game, most of the videos I have made are about the this game.
+<a href="../mainpages/videoprojects.html" class="projectLink"> <button class="projectButton" role="button">
+          
+    Click here to see the Video's I've made</button></a>
+                    </p>
               
             </div>
             <div class="gridTopics">
@@ -95,9 +106,9 @@
                     <img src="../media/Colletive/Slide2.jpg" alt="The Colletive"class="projectImg" width="100%">
                     </div>
             </div></div>
- 
+ <!--
 <div class="tealLine">
-    <h2 class="mainFont mainInfo project">
+    <h2 class="mainFont mainInfo project" id="redStar">
 Part I - Building a Community               
 </h2>
     </div> 
@@ -124,10 +135,38 @@ Part I - Building a Community
                 <p>My role was to help the new leader with the transition</p>
                 </div>
         </div>
-
+        <div class="gridTopics">
+            <div></div>
+            <h2 class="mainFontPurple">What do you mean a break?</h2>
+            <div></div>
+            
+            </div>
+            <div class="gridTwoBlocks">
+                <div class="projectBox CSpadding">
+                <h2>White Star Leadership takes a break</h2><br>
+                <p>One of hte main social outlets for the game is white stars. a weekly campain that streaches 5 days. The main leadership all took a break from leading and manging the team. I feel this is something very importent for the corp to offer. But I also dont like heavy orders. </p><br>
+                <p><a href="#whiteStar" class="email">Read More About how I took over as the White Star Leader</a></p>
+                </div>
+                <div class="projectBox CSpadding">
+                    <h2>How else do we keep people involed?</h2><br>
+                    <p>Red Stars, lets climb to to the top.</p>
+                    <br>
+                    <p>The Race is on to become the top corp in the game for Red Stars, level 11 Red Stars at that. </p>
+                    </div></div>
+                    <div class="gridTwoBlocks">
+                        <div class="projectBox CSpadding">
+                        <h2>Never Played Hades Star You say? </h2><br>
+                        <p>Here is a video of a Dark Red Star I made in Premier</p><br>
+                        <p>I customizemed the music, mixing tracks together to get the effeect I wanted to match the feel of the star.</p><br>
+                        <p><a href="#video" class="email">Read More About this projects</a></p>
+                        </div>
+                        <div class="projectBox CSpadding"> <iframe width="560" height="315" src="https://www.youtube.com/embed/GB95L4T7dmc?si=84TJIDvByB1EBbGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                           
+                            </div></div>
+-->
         <div class="tealLine">
-            <h2 class="mainFont mainInfo project">
-Part II - Cat Meme's and team building                
+            <h2 class="mainFont mainInfo project" id="whiteStar">
+Cat Meme's and team building                
 </h2>
             </div> 
             <div class="gridTopics">
@@ -230,6 +269,7 @@ Part II - Cat Meme's and team building
 <p>As a leader, I never faced the same issues other leaders often face with of getting too wrap up in the match. Nor did I have the same burn out issues. I could scan and play the game in my free time and trust my team would be able to solve what ever problem came there why.</p>
 </div>
 </div>
+
 
        <footer>
         <div class="footerBox ">
