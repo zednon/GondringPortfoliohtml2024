@@ -1,0 +1,38 @@
+Date : 2024-07-25 09:58:42
+Directory : c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages
+Total : 10 files,  1023 codes, 1 comments, 121 blanks, all 1145 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |          8 |        985 |          0 |        120 |      1,105 |
+| JavaScript |          2 |         38 |          1 |          1 |         40 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         10 |      1,023 |          1 |        121 |      1,145 |
+| . (Files)                                                                             |          9 |      1,023 |          1 |        122 |      1,146 |
+| ..                                                                                    |          1 |          0 |          0 |         -1 |         -1 |
+| ..\projectpages                                                                       |          1 |          0 |          0 |         -1 |         -1 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                              | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\Projects.html       | HTML       |        146 |          0 |         16 |        162 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\blog.html           | HTML       |        114 |          0 |         14 |        128 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\codingprojects.html | HTML       |        133 |          0 |         20 |        153 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\emailprojects.html  | HTML       |        112 |          0 |          8 |        120 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\navbar.html         | HTML       |         14 |          0 |          2 |         16 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\navbar.js           | JavaScript |         38 |          1 |          2 |         41 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\resume.html         | HTML       |        208 |          0 |         25 |        233 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\uxcasestudies.html  | HTML       |        154 |          0 |         24 |        178 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\videoprojects.html  | HTML       |        104 |          0 |         11 |        115 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\projectpages\main.js          | JavaScript |          0 |          0 |         -1 |         -1 |
+| Total                                                                                 |            |      1,023 |          1 |        121 |      1,145 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

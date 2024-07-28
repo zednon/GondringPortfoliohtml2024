@@ -1,0 +1,40 @@
+Date : 2024-07-25 09:59:14
+Directory : c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\css
+Total : 11 files,  -185 codes, 3 comments, 115 blanks, all -67 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          2 |        838 |          4 |        237 |      1,079 |
+| JavaScript |          1 |        -38 |         -1 |         -2 |        -41 |
+| HTML       |          8 |       -985 |          0 |       -120 |     -1,105 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         11 |       -185 |          3 |        115 |        -67 |
+| . (Files)                                                                             |          2 |        838 |          4 |        237 |      1,079 |
+| ..                                                                                    |          9 |     -1,023 |         -1 |       -122 |     -1,146 |
+| ..\mainpages                                                                          |          9 |     -1,023 |         -1 |       -122 |     -1,146 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                              | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\css\footer.css                | CSS        |          0 |          0 |          2 |          2 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\css\style.css                 | CSS        |        838 |          4 |        235 |      1,077 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\Projects.html       | HTML       |       -146 |          0 |        -16 |       -162 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\blog.html           | HTML       |       -114 |          0 |        -14 |       -128 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\codingprojects.html | HTML       |       -133 |          0 |        -20 |       -153 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\emailprojects.html  | HTML       |       -112 |          0 |         -8 |       -120 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\navbar.html         | HTML       |        -14 |          0 |         -2 |        -16 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\navbar.js           | JavaScript |        -38 |         -1 |         -2 |        -41 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\resume.html         | HTML       |       -208 |          0 |        -25 |       -233 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\uxcasestudies.html  | HTML       |       -154 |          0 |        -24 |       -178 |
+| c:\Users\Ana\Documents\GitHub\GondringPortfoliohtml2024\mainpages\videoprojects.html  | HTML       |       -104 |          0 |        -11 |       -115 |
+| Total                                                                                 |            |       -185 |          3 |        115 |        -67 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

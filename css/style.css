@@ -71,6 +71,7 @@
 }
 .black {
   color: #000000;
+  font-size: 24px;
 }
 
 .white {
@@ -908,8 +909,10 @@ grid-template-columns: 1fr 5fr 1fr;
   .pojectHeadline {
     float: right;
     font-size: 18px;
-    font-family: "win
+    font-family: "winco", sans-serif;
 }
+
+
 
 
   .fourBlocks {
@@ -1072,5 +1075,149 @@ grid-template-columns: 1fr 5fr 1fr;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
   }
   
+  /* Design CSS*/
+.boreder1 {
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  background:#fff;
+  border: solid #6F2A87;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+ rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+
+.border2 {
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  background:#fff;
+  border: solid #6F2A87;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+ rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.border3 {
+    border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  background:#fff;
+  border: solid #6F2A87;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+ rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.designBox {
+ margin-bottom: 10px; }
+
+.border1 {
+  border: #010B0A 5px solid;
+  
+  background-color: #F2DA1B;
+  color: #010B0A;
+  padding: 10px;
+  margin: 10px 0 20px;
+  font-size: 25px;
+  justify-self: center;
+  text-align: center;
+
+  }
+
+.border3Card {
+    border: #010B0A 5px solid;
+    
+    background-color: #FB9E35;
+    color: #010B0A;
+    padding: 10px;
+    margin: 10px 0 20px;
+    font-size: 25px;
+    justify-self: center;
+    text-align: center;
+  
+    }
+
+
+.border {
+  border: #010B0A 5px solid;
+ 
+  background-color: #e11c6e;
+  color: #FFFDFE;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  justify-self: center;
+  text-align: center;
+  }
+
+  .centerImg {
+    width: 100%;
+  height: auto; 
+  }
+
+  .centerImg:hover {
+    transform:scale(2); }
+
+.rightImg {
+  width: 100%;
+  height: auto;
+  
+}
+ 
+.rightImg:hover{
+  transform:scale(2);
+  margin: 0 0 0 0; 
+ }
+
+
+.leftImg {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.leftImg:hover{
+  transform:scale(2);
+margin: 0 0 0 60%; 
+} 
+
+  .designRow {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    padding: 1%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .desigmColumn {
+    flex: 25%;
+    max-width: 33%;
+    padding: 1%;
+  }
+  
+  .desigmColumn .galleryImg {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .desigmColumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .desigmColumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
