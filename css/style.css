@@ -1161,7 +1161,9 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
   }
 
   .centerImg:hover {
-    transform:scale(2); }
+    transform:scale(2); 
+    transition: all 0.5s ease-in;
+  }
 
 .rightImg {
   width: 100%;
@@ -1171,7 +1173,8 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
  
 .rightImg:hover{
   transform:scale(2);
-  margin: 0 0 0 0; 
+  margin: 0 60% 0 0; 
+  transition: all 0.5s ease-in;
  }
 
 
@@ -1184,6 +1187,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
 .leftImg:hover{
   transform:scale(2);
 margin: 0 0 0 60%; 
+transition: all 0.5s ease-in;
 } 
 
   .designRow {
