@@ -1154,6 +1154,22 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
   justify-self: center;
   text-align: center;
   }
+.handMade {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+.handMade a {
+  text-decoration: none;
+  color: white;
+  border-bottom: white 2px solid;
+}
+
+.handMade a:hover { 
+  font-weight: 900;
+}
 
   .centerImg {
     width: 100%;
@@ -1172,9 +1188,9 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
 }
  
 .rightImg:hover{
-  transform:scale(2);
   margin: 0 60% 0 0; 
   transition: all 0.5s ease-in;
+  transform:scale(2);
  }
 
 
