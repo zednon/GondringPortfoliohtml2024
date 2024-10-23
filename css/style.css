@@ -284,7 +284,7 @@ font-weight: 700;
     font-style: normal;
     color: #6F2A87;
   font-size: 4.0rem;
-  border-bottom: #010B0A 5px dashed;
+    text-align: center;
   
  
 
@@ -925,10 +925,12 @@ grid-template-columns: 1fr 5fr 1fr;
     
     .gridTopics {
       display: flex;
-      justify-content: center;
+      text-align: center;
       flex-wrap: nowrap;
+      justify-content: center;
       grid-gap: 20px;
       padding: 10px 20px;
+      color:#6F2A87
     }
     .gridTwoBlocks { 
     display: grid;
