@@ -278,6 +278,14 @@ font-weight: 700;
   
   }
 
+.smallMainFont {
+
+  font-weight: 600;
+  font-style: normal;
+  color: #010B0A;
+font-size: 2.5rem;
+}
+
   .mainFontPurple {
     font-family: "bungee", sans-serif;
     font-weight: 500;
